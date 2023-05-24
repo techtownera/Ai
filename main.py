@@ -19,7 +19,7 @@ def chat(query):
         model="text-davinci-003",
         prompt= chatStr,
         temperature=0.8,
-        max_tokens=256,
+        max_tokens=260,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0
