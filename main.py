@@ -18,7 +18,7 @@ def chat(query):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt= chatStr,
-        temperature=0.6,
+        temperature=0.9,
         max_tokens=260,
         top_p=1,
         frequency_penalty=0,
